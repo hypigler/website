@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "work-sans";
+    src: url("../fonts/WorkSans-Regular.ttf");
+}
+
+body {
+    background-color: #142828;
+    font-family: work-sans;
+    color: #328273
+}
+
+.header {
+    background-color: #1e3c3c;
+    margin: 12px 0px;
+    padding: 5px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.navigation {
+    display: grid;
+    background-color: #1e3c3c;
+    margin: 0px 0px;
+    padding: 5px;
+    text-align: center;
+    font-size: 24px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    align
+}
