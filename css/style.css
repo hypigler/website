@@ -12,7 +12,8 @@ body {
 .header {
     background-color: #1e3c3c;
     margin: 12px 0px;
-    padding: 5px;
+    padding: 1px;
+    user-select: none;
     text-align: center;
     font-size: 24px;
 }
@@ -21,10 +22,39 @@ body {
     display: grid;
     background-color: #1e3c3c;
     margin: 0px 0px;
-    padding: 5px;
+    padding: 8px;
     text-align: center;
     font-size: 24px;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
-    gap: 10px
+    gap: 16px
+}
+
+/* Navigational Buttons */
+
+.nav_button {
+    user-select: none;
+}
+
+.nav_button:link {
+    color: #328273;
+    text-decoration: none;
+}
+
+.nav_button:visited {
+    color: #328273;
+    text-decoration: none;
+}
+
+.nav_button:hover {
+    color: #328273;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav_button:active {
+    color: #328273;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
 }
