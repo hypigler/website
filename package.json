@@ -1,6 +1,7 @@
 {
   "name": "reactweb",
   "private": true,
+  "homepage": "https://hypigler.github.io/website/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -48,6 +49,5 @@
     "postcss-simple-vars": "^7.0.1",
     "typescript": "^5.2.2",
     "vite": "^5.2.0"
-  },
-  "homepage": "https://hypigler.github.io/website/"
+  }
 }
