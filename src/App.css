@@ -42,6 +42,7 @@
 }
 
 .banner {
+  image-rendering: pixelated;
   will-change: filter;
   transition: filter 500ms;
 }
