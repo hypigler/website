@@ -61,13 +61,13 @@ function App() {
                 <Title order={2} size="h1">Original Compositions</Title>
                 <Space h="xl" />
                 <iframe width="512" height="288" src="https://www.youtube.com/embed/RMdrlMXxRFk" title="Pigler&#39;s Domain OST » Raedon&#39;s Theme (Unused)" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-                <Text size="lg">Raedon's Theme, Made in 2021. Unused Song for a boss fight in my old Minecraft Server.</Text>
+                <Text size="lg">A Boss Theme made in 2021. Unused Song for a boss fight in my old Minecraft Server.</Text>
                 <Space h="xl" />
                 <iframe width="512" height="288" src="https://www.youtube.com/embed/W33sbxerFHA" title="Hypixel&#39;s 10 Year Anniversary Contest Noteblock Song Submission » Rift Lords" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-                <Text size="lg">Rift Lords, Made in 2023 for the Hypixel 10th Anniversary Note Block Contest.</Text>
+                <Text size="lg">A Boss Theme made in 2023 for the Hypixel 10th Anniversary Note Block Contest.</Text>
                 <Space h="xl" />
                 <iframe width="512" height="288" src="https://www.youtube.com/embed/ti2Z4BifMtY" title="Minecraft Note Block Composition » Difference" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-                <Text size="lg">Difference, Made in 2024.</Text>
+                <Text size="lg">An Ambient Theme made in 2024 for an unsettling situation in an underground area.</Text>
                 <Space h="xl" />
                 <Text size="lg"><a href='https://www.youtube.com/@hypigler' target='_blank'>Check out my Youtube Channel for song remixes!</a></Text>
               </Paper>
