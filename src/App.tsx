@@ -22,7 +22,7 @@ function App() {
                 <Title order={1}>About Me</Title>
                 <Space h="xs" />
                 <Text size="lg">Commonly known online as "Pigler", or the <a href='https://www.youtube.com/watch?v=m9-dpO47XVw' target='_blank'>Necron Doom</a> enjoyer.</Text>
-                <Text size="lg">I am most frequently seen dabbling in various block-game projects, such as creating or remxing songs using <a href='https://opennbs.org' target='_blank'>Open Note Block Studio</a> or minecraft server scripting shenanigans with <a href='https://github.com/DenizenScript/Denizen' target='_blank'>Denizen</a>.</Text>
+                <Text size="lg">I am most frequently seen dabbling in various block-game projects, such as creating note block covers using <a href='https://opennbs.org' target='_blank'>Open Note Block Studio</a> or minecraft server scripting shenanigans with <a href='https://github.com/DenizenScript/Denizen' target='_blank'>Denizen</a>.</Text>
               </Paper>
             </Grid.Col>
             <Grid.Col span={12}>
@@ -45,7 +45,7 @@ function App() {
             </Grid.Col>
             <Grid.Col span={12}>
               <Paper shadow="xl" radius="md" p="xl" withBorder>
-                <Title order={2} size="h1">Game-Related Works (Mostly Denizen Stuff)</Title>
+                <Title order={2} size="h1">Game-Related Works (Denizen & MythicMobs)</Title>
                 <Space h="xl" />
                 <iframe width="512" height="288" src="https://www.youtube.com/embed/aHOHk0QCTAY" title="2021 stye co-op boss fight" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                 <Text size="lg">Mini Boss Fight made by me back in 2021 using MythicMobs for an old minecraft server.</Text>
