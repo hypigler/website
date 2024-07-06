@@ -1,7 +1,6 @@
-import { MantineProvider } from '@mantine/core';
+import { MantineProvider, Container, Group, Image, Paper, Card, Space, Text, Title, Grid, ActionIcon, rem } from "@mantine/core";
+import { IconBrandYoutube } from '@tabler/icons-react';
 import '@mantine/core/styles.css';
-
-import { Container, Group, Image, Paper, Card, Space, Text, Title, Grid } from "@mantine/core";
 import './App.css'
 
 const banner = "images/web-banner.png";
@@ -99,23 +98,19 @@ function App() {
                 </Grid>
               </Paper>
             </Grid.Col>
-            {/* <Grid.Col span={12}>
-              <Paper shadow="xl" radius="md" p="xl" withBorder>
-                <Title order={2} size="h1">Original Compositions</Title>
-                <Space h="xl" />
-                <iframe width="512" height="288" src="https://www.youtube.com/embed/RMdrlMXxRFk" title="Pigler&#39;s Domain OST » Raedon&#39;s Theme (Unused)" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-                <Text size="lg">A Boss Theme made in 2021. Unused Song for a boss fight in my old Minecraft Server.</Text>
-                <Space h="xl" />
-                <iframe width="512" height="288" src="https://www.youtube.com/embed/W33sbxerFHA" title="Hypixel&#39;s 10 Year Anniversary Contest Noteblock Song Submission » Rift Lords" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-                <Text size="lg">A Boss Theme made in 2023 for the Hypixel 10th Anniversary Note Block Contest.</Text>
-                <Space h="xl" />
-                <iframe width="512" height="288" src="https://www.youtube.com/embed/ti2Z4BifMtY" title="Minecraft Note Block Composition » Difference" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-                <Text size="lg">An Ambient Theme made in 2024 for an unsettling situation in an underground area.</Text>
-                <Space h="xl" />
-                <Text size="lg"><a href='https://www.youtube.com/@hypigler' target='_blank'>Check out my Youtube Channel for song remixes!</a></Text>
-              </Paper>
-            </Grid.Col> */}
           </Grid>
+        </Group>
+        <Group className="footer">
+          <Container className="inner">
+            <Group gap={0} className="links" justify="flex-end" wrap="nowrap">
+              <ActionIcon size="xl" color="gray" variant="subtle" component="a" href="https://www.youtube.com/@hypigler" aria-label="Open in a new tab" target='__blank'>
+                <IconBrandYoutube style={{ width: rem(64), height: rem(64) }} stroke={1} />
+              </ActionIcon>
+            </Group>
+            <Space h="md" />
+            <Text c="dimmed">Website created with React and Mantine.</Text>
+            <Text c="dimmed">© 2024 Pigler</Text>
+          </Container>
         </Group>
       </MantineProvider>
     </>
