@@ -1,10 +1,14 @@
 import { MantineProvider } from '@mantine/core';
 import '@mantine/core/styles.css';
 
-import { Container, Group, Image, Paper, Space, Text, Title, Grid } from "@mantine/core";
+import { Container, Group, Image, Paper, Card, Space, Text, Title, Grid } from "@mantine/core";
 import './App.css'
 
 const banner = "images/web-banner.png";
+const thumb1 = "images/thumbnails/denizen.png";
+const thumb2 = "images/thumbnails/renders.png";
+const thumb3 = "images/thumbnails/designs.png";
+const thumb4 = "images/thumbnails/noteblocks.png";
 
 function App() {
   return (
@@ -45,18 +49,57 @@ function App() {
             </Grid.Col>
             <Grid.Col span={12}>
               <Paper shadow="xl" radius="md" p="xl" withBorder>
-                <Title order={2} size="h1">Game-Related Works (Denizen & MythicMobs)</Title>
+                <Title order={2} size="h1">My Various Works</Title>
                 <Space h="xl" />
-                <iframe width="512" height="288" src="https://www.youtube.com/embed/aHOHk0QCTAY" title="2021 stye co-op boss fight" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-                <Text size="lg">Mini Boss Fight made by me back in 2021 using MythicMobs for an old minecraft server.</Text>
-                <Space h="xl" />
-                <iframe width="512" height="288" src="https://www.youtube.com/embed/9AhpNRRbiCE" title="necron doom megacollab test" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-                <Text size="lg">"Animation" made by me using Denizen for an upcoming mega note block song mash-up.</Text>
-                <Text size="lg">The players are controlled by a movement recording script i had made and used to record my movement paths one by one and to replay movements on fake player npcs.</Text>
-                <Text size="lg">Then used <a href='https://www.replaymod.com/' target='_blank'>Replay Mod</a> to create smooth camera paths. "Necron Doom" song remixed by me.</Text>
+                <Grid gutter={{ base: 25, xs: 25, md: 18, xl: 25 }} justify="center">
+                  <Grid.Col span={6}>
+                    <Card shadow="md" padding="lg" radius="md" component="a" href="https://www.youtube.com/playlist?list=PLoMC3NlGkh-Vtuc3mlYZJFxW5WrZiHWGb" target="_blank" withBorder>
+                      <Card.Section>
+                        <Image src={thumb1} alt="Minecraft Server Creations"/>
+                      </Card.Section>
+                      <Group justify="center" mt="xs">
+                        <Text fw={500}>Minecraft Server Creations</Text>
+                      </Group>
+                      <Text size="sm" c="dimmed">My Denizen and MythicMobs scripting creations.</Text>
+                    </Card>
+                  </Grid.Col>
+                  <Grid.Col span={6}>
+                    <Card shadow="md" padding="lg" radius="md" component="a" href="https://drive.google.com/drive/folders/1uq2Es6sONFJcoKRy9cq9oS-JG28p1J36?usp=sharing" target="_blank" withBorder>
+                      <Card.Section>
+                        <Image src={thumb2} alt="3"/>
+                      </Card.Section>
+                      <Group justify="center" mt="xs">
+                        <Text fw={500}>Blender and Mine-Imator Creations</Text>
+                      </Group>
+                      <Text size="sm" c="dimmed">My various renders I've made over the years.</Text>
+                    </Card>
+                  </Grid.Col>
+                  <Grid.Col span={6}>
+                    <Card shadow="md" padding="lg" radius="md" component="a" href="https://drive.google.com/drive/folders/1FsmNwIl_f2qX2v1-E4yJYL3CgBe8Bjia?usp=sharing" target="_blank" withBorder>
+                      <Card.Section>
+                        <Image src={thumb3} alt="3"/>
+                      </Card.Section>
+                      <Group justify="center" mt="xs">
+                        <Text fw={500}>Server Designs & Ideas</Text>
+                      </Group>
+                      <Text size="sm" c="dimmed">Some mechanics I've implemented on my Old 2021 Server, mainly class abilities.</Text>
+                    </Card>
+                  </Grid.Col>
+                  <Grid.Col span={6}>
+                    <Card shadow="md" padding="lg" radius="md" component="a" href="https://www.youtube.com/playlist?list=PLoMC3NlGkh-Xvz4j6LzqOhIr9hGTUe95L" target="_blank" withBorder>
+                      <Card.Section>
+                        <Image src={thumb4} alt="3"/>
+                      </Card.Section>
+                      <Group justify="center" mt="xs">
+                        <Text fw={500}>Note Block Song Creations</Text>
+                      </Group>
+                      <Text size="sm" c="dimmed">Original Minecraft note block songs that I've composed.</Text>
+                    </Card>
+                  </Grid.Col>
+                </Grid>
               </Paper>
             </Grid.Col>
-            <Grid.Col span={12}>
+            {/* <Grid.Col span={12}>
               <Paper shadow="xl" radius="md" p="xl" withBorder>
                 <Title order={2} size="h1">Original Compositions</Title>
                 <Space h="xl" />
@@ -71,7 +114,7 @@ function App() {
                 <Space h="xl" />
                 <Text size="lg"><a href='https://www.youtube.com/@hypigler' target='_blank'>Check out my Youtube Channel for song remixes!</a></Text>
               </Paper>
-            </Grid.Col>
+            </Grid.Col> */}
           </Grid>
         </Group>
       </MantineProvider>
