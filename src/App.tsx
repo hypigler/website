@@ -108,7 +108,6 @@ function App() {
               </ActionIcon>
             </Group>
             <Space h="md" />
-            <Text c="dimmed">Website created with React and Mantine.</Text>
             <Text c="dimmed">© 2024 Pigler</Text>
           </Container>
         </Group>
