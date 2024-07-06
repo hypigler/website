@@ -108,6 +108,7 @@ function App() {
               </ActionIcon>
             </Group>
             <Space h="md" />
+            <Text c="dimmed">Website made with Vite and Mantine.</Text>
             <Text c="dimmed">© 2024 Pigler</Text>
           </Container>
         </Group>
