@@ -17,7 +17,7 @@ function App() {
           <Grid gutter={{ base: 25, xs: 25, md: 18, xl: 25 }} justify="center">
             <Grid.Col span={12}>
               <Container>
-                <Image radius="md" h="260" fit="cover" src={banner} className="banner"/>
+                <Image radius="md" h="260" fit="cover" src={banner} className="banner" alt="Banner Image"/>
               </Container>
             </Grid.Col>
             <Grid.Col span={9}>
