@@ -1,19 +1,19 @@
-import { MantineProvider, Container, Group, Image, Paper, Card, Space, Text, Title, Grid, ActionIcon, rem } from "@mantine/core";
+import { MantineProvider, Container, Group, Image, Paper, Space, Text, Title, Grid, ActionIcon, rem } from "@mantine/core";
 import { IconBrandYoutube } from '@tabler/icons-react';
 import '@mantine/core/styles.css';
 import './App.css'
 
 const banner = "images/web-banner.png";
-const thumb1 = "images/thumbnails/denizen.png";
-const thumb2 = "images/thumbnails/renders.png";
-const thumb3 = "images/thumbnails/designs.png";
-const thumb4 = "images/thumbnails/noteblocks.png";
+// const thumb1 = "images/thumbnails/denizen.png";
+// const thumb2 = "images/thumbnails/renders.png";
+// const thumb3 = "images/thumbnails/designs.png";
+// const thumb4 = "images/thumbnails/noteblocks.png";
 
 function App() {
   return (
     <>
       <MantineProvider defaultColorScheme='dark'>
-        <Group mt="50" justify="center">
+        <Group mt="10" justify="center">
           <Grid gutter={{ base: 25, xs: 25, md: 18, xl: 25 }} justify="center">
             <Grid.Col span={12}>
               <Container>
@@ -24,11 +24,12 @@ function App() {
               <Paper shadow="xl" radius="md" p="xl" withBorder>
                 <Title order={1}>About Me</Title>
                 <Space h="xs" />
-                <Text size="lg">Commonly known online as "Pigler", or the <a href='https://www.youtube.com/watch?v=m9-dpO47XVw' target='_blank'>Necron Doom</a> enjoyer.</Text>
-                <Text size="lg">I am most frequently seen dabbling in various block-game projects, such as creating note block covers using <a href='https://opennbs.org' target='_blank'>Open Note Block Studio</a> or minecraft server scripting shenanigans with <a href='https://github.com/DenizenScript/Denizen' target='_blank'>Denizen</a>.</Text>
+                <Text size="lg">Hi! I'm known online as "Pigler".</Text>
+                <Text size="lg">I make song covers and originals using <a href='https://opennbs.org' target='_blank'>OpenNBS</a>.</Text>
+                <Text size="lg">I also script with <a href='https://github.com/DenizenScript/Denizen' target='_blank'>Denizen</a> to toss some of my game-related ideas into a local spigot server.</Text>
               </Paper>
             </Grid.Col>
-            <Grid.Col span={12}>
+            {/* <Grid.Col span={12}>
               <Paper shadow="xl" radius="md" p="xl" withBorder>
                 <Title order={2} size="h1">Aspirations</Title>
                 <Space h="xs" />
@@ -43,7 +44,6 @@ function App() {
                 <Space h="xs" />
                 <Text size="lg">I am also interested in some music creation, specifically Note Block Songs made to work in <a href='https://www.minecraft.net/' target='_blank'>Minecraft</a> using <a href='https://opennbs.org' target='_blank'>Open Note Block Studio</a></Text>
                 <Text size="lg">I have a few original compositions that i've written that can be found below, or on my <a href='https://www.youtube.com/@hypigler' target='_blank'>Youtube Channel</a>, alongside various remixes i've made.</Text>
-                <Text size="lg">My style is mostly inspired by <a href='https://www.youtube.com/@ShinkoNet' target='_blank'>ShinkoNet</a>.</Text>
               </Paper>
             </Grid.Col>
             <Grid.Col span={12}>
@@ -97,7 +97,7 @@ function App() {
                   </Grid.Col>
                 </Grid>
               </Paper>
-            </Grid.Col>
+            </Grid.Col> */}
           </Grid>
         </Group>
         <Group className="footer">
