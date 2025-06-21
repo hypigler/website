@@ -1,5 +1,5 @@
 import { MantineProvider, Container, Group, Image, Paper, Space, Text, Title, Grid, ActionIcon, rem } from "@mantine/core";
-import { IconBrandYoutube } from '@tabler/icons-react';
+import { IconBrandYoutube, IconPencil } from '@tabler/icons-react';
 import '@mantine/core/styles.css';
 import './App.css'
 
@@ -105,6 +105,9 @@ function App() {
             <Group gap={0} className="links" justify="flex-end" wrap="nowrap">
               <ActionIcon size="xl" color="gray" variant="subtle" component="a" href="https://www.youtube.com/@hypigler" aria-label="Open in a new tab" target='__blank'>
                 <IconBrandYoutube style={{ width: rem(64), height: rem(64) }} stroke={1} />
+              </ActionIcon>
+              <ActionIcon size="xl" color="gray" variant="subtle" component="a" href="https://www.youtube.com/@hypigler" aria-label="Open in a new tab" target='__blank'>
+                <IconPencil style={{ width: rem(64), height: rem(64) }} stroke={1} />
               </ActionIcon>
             </Group>
             <Space h="md" />
