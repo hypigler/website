@@ -1,12 +1,9 @@
 import { MantineProvider, Container, Group, Image, Paper, Space, Text, Title, Grid, ActionIcon, Card, rem } from "@mantine/core";
-import { IconBrandYoutube, IconPencil } from '@tabler/icons-react';
+import { IconBrandYoutube } from '@tabler/icons-react';
 import '@mantine/core/styles.css';
 import './App.css'
 
 const banner = "images/web-banner.png";
-const thumb1 = "images/thumbnails/denizen.png";
-const thumb2 = "images/thumbnails/renders.png";
-const thumb3 = "images/thumbnails/designs.png";
 const thumb4 = "images/thumbnails/noteblocks.png";
 
 function App() {
