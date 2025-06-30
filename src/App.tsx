@@ -32,7 +32,7 @@ function App() {
                 <Space h="xl" />
                 <Grid gutter={{ base: 25, xs: 25, md: 18, xl: 25 }} justify="center">
                   <Grid.Col span={6}>
-                    <Card shadow="md" padding="lg" radius="md" component="a" href="https://www.youtube.com/watch?v=W33sbxerFHA&list=PLoMC3NlGkh-Xvz4j6LzqOhIr9hGTUe95L" target="_blank" withBorder>
+                    <Card shadow="md" padding="lg" radius="md" component="a" href="https://www.youtube.com/@hypigler" target="_blank" withBorder>
                       <Card.Section>
                         <Image src={thumb4} alt="3"/>
                       </Card.Section>
